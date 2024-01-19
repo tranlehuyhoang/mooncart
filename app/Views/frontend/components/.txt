@@ -1,0 +1,14 @@
+ <option value="0" selected >All Categories</option>
+                         <?php
+                            $subtotal  =  0;
+
+                            if (is_array($data['cattegories']) || is_object($data['cattegories'])) : ?>
+                             <?php foreach ($data['cattegories'] as $cattegory) : ?>
+
+                                 <option value="<?php echo $cattegory['id'] ?>"><?php echo $cattegory['name'] ?></option>
+                             <?php endforeach; ?>
+                         <?php else : ?>
+                             <tr>
+                                 <td colspan="6">No items in the cart.</td>
+                             </tr>
+                         <?php endif; ?>

@@ -1,0 +1,12 @@
+const firstName = "John";
+const lastName = undefined;
+const fullName = firstName ?? lastName ?? "Unknown";
+console.log(fullName); // Output: "John"
+
+let count = null;
+count ??= 5;
+console.log(count); // Output: 5
+
+let message = "Hello";
+message ??= "Default message";
+console.log(message); // Output: "Hello"
