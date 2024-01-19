@@ -31,9 +31,9 @@
                  <!-- Website Logo -->
                  <div class="logo-header me-5">
                      <a href="index.html">
-                         <img src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>logo.png" alt="logo"
+                         <img src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>images/logo.png" alt="logo"
                              class="logo-dark">
-                         <img src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>logo.png" alt="logo"
+                         <img src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>images/logo.png" alt="logo"
                              class="logo-light">
                      </a>
                  </div>

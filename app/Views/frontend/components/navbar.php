@@ -11,8 +11,8 @@
              <div class="container-fluid clearfix">
                  <!-- Website Logo -->
                  <div class="logo-header logo-dark me-md-5">
-                     <a href="<?php url('') ?>"><img src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>logo.png"
-                             alt="logo"></a>
+                     <a href="<?php url('') ?>"><img
+                             src="<?php echo ASSETS_URL_ROOT . '/client_assets/' ?>images/logo.png" alt="logo"></a>
                  </div>
 
                  <!-- Nav Toggle Button -->
